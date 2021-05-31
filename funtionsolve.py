@@ -1,7 +1,7 @@
 from numpy import linspace,power,cos
 sum = 0
-for x in linspace(-2,2,1000):
-    sum = sum + (((power(x,3))*cos(x/2)+0.5)*power(4-power(x,2),0.5))*((4/1000))
+for x in linspace(-2,2,1000000):
+    sum = sum + (((power(x,3))*cos(x/2)+0.5)*power(4-power(x,2),0.5))*((4/1000000))
 print (sum)
 
 
